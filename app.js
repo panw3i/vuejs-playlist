@@ -1,7 +1,9 @@
 Vue.component('greeting', {
     template: '<p>Hey there, I am a re-usable component</p>',
     data(){
-      return "hello";
+      return {
+        name:"pan"
+      }
     }
 });
 
